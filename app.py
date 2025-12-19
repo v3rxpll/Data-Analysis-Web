@@ -4,7 +4,7 @@ from numpy.random import default_rng as rng
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_sc
+from sklearn.metrics import mean_squared_error, r2_score
 
 st.set_page_config(
     page_title="My Streamlit App",
@@ -77,3 +77,4 @@ ax.legend()
 ax.grid(True)
 
 st.pyplot(fig)
+
